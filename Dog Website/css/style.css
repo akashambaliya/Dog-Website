@@ -20,6 +20,14 @@ header{
 .header{
     /* padding: 25px; */
     justify-content: space-between;
+    align-items: center;
+}
+
+.mini_search img{
+
+}
+.menu_list img{
+
 }
 .search{
     align-items: center;
@@ -34,8 +42,9 @@ ul{
     list-style: none;
     padding: 0;
 }
-a{
+a {
     text-decoration: none;
+    display: inline-flex;
 }
 .nav_menu{
     font-size: 30px;
@@ -67,6 +76,7 @@ a{
     flex-direction: row-reverse;
     padding: 100px 0;
 }
+
 .slider_text{
     color: white;
     width: 50%;
@@ -135,12 +145,17 @@ button{
     height: 200px;
     background: #fcc302;
     position: absolute;
-    bottom: 7px;
+    bottom: -23px;
     left: -35px;
     z-index: -1;
 }
 .care_card{
     justify-content: space-between;
+    overflow: scroll;
+    gap: 10px;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 .dog_care{
     text-align: center;
@@ -155,6 +170,7 @@ button{
 .card_box img{
     /* width: 100%; */
     border: 5px solid white;
+    box-sizing: border-box;
 }
 h1{
     font-size: 70px;
@@ -210,8 +226,6 @@ h3{
 .icon a{
     display: inline-flex;
 }
-
-
 .client{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url(../img/info_img.png);
     max-width: 1920px;
@@ -230,28 +244,18 @@ h3{
     text-align: center;
     padding-bottom: 50px;
 }
+.col-md-4 p{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px;
+}
 .counter {
     font-weight: 500;
     animation-duration: 1s;
     animation-delay: 0s;
 }
-  
-
-/* @media (max-width: 991px) {
-.col-md-4 {
-    border-right: 0px dashed black;
-    border-bottom: 1px dashed black;
-    width: 50%;
-    margin: auto auto;
-}
-
-.col-md-4:last-child {
-    border-bottom: 0px dashed black;
-} */
-
-
-
 .rev_card img{
+    width: 100%;
     border: none;
 }
 .rev_card_text{
@@ -321,3 +325,4 @@ footer li,.foot_details{
     font-weight: 500;
     margin: 0;
 }
+
