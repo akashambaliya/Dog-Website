@@ -5,11 +5,33 @@
     .container {
         width: 95%;
     }
-    .nav_menu{
-        display: none;
+    .menu {
+        display: block;
+        padding: 10px;
     }
-    .search{
+    .menu li{
+        padding: 5px;
+    }
+    .nav_menu {
         display: none;
+        position: absolute;
+        background-color: #00bec9;
+        width: 90%;
+        top: 65px;
+        font-size: 20px;
+        border: 2px solid white;
+        box-sizing: border-box;
+    }
+    .search input{
+        display: none;
+        padding: 12px 20px;
+    }
+    .menu li:hover{
+        border-bottom: 2px solid #ffffff;
+        transition:  .3s;
+    }
+    header{
+        padding: 10px;
     }
     .header {
         flex-wrap: wrap;
@@ -22,19 +44,6 @@
     }
     .logo img{
         width: 100%;
-    }
-    .nav_menu {
-        font-size: 20px;
-    }
-    .menu {
-        gap: 30px;
-    }
-    .search input {
-        padding: 10px 15px;
-        font-size: 16px;
-    }
-    .search_icon {
-        padding: 8px 15px;
     }
     .slide{
         flex-wrap: wrap;
@@ -117,11 +126,13 @@
     .footer_menu {
         flex-wrap: wrap;
         justify-content: center;
+        padding: 50px 0;
     }
     .footer_menu > div {
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
         text-align: center;
+
     }
     .footer_search {
         margin: 20px auto;
@@ -142,18 +153,33 @@
     .container {
         width: 90%;
     }
-    .header {
-        flex-direction: column;
+    .menu_list img {
+        width: 40px;
     }
-    .search {
-        margin-top: 20px;
-    }
-    .nav_menu {
-        margin-top: 20px;
+    .search input {
+        display: none;
+        padding: 12px 20px;
     }
     .menu {
-        flex-direction: column;
-        gap: 20px;
+        display: block;
+        padding: 15px;
+    }
+    .menu li{
+        padding: 5px;
+    }
+    .menu li:hover{
+        border-bottom: 2px solid #ffffff;
+        transition:  .3s;
+    }
+    .nav_menu {
+        display: none;
+        position: absolute;
+        background-color: #00bec9;
+        width: 80%;
+        top: 100px;
+        font-size: 20px;
+        border: 2px solid white;
+        box-sizing: border-box;
     }
     .button {
         flex-direction: column;
@@ -184,8 +210,6 @@
     }
     .col-md-4 p{
         font-size: 20px;
-        font-weight: 500;
-        margin: 0;
     }
     .slide_text {
         font-size: 20px;
@@ -254,11 +278,37 @@
     h2{
         font-size: 35px;
     }
-    .nav_menu {
-        font-size: 20px;
+    h3 {
+        font-size: 30px;
     }
     .menu {
-        gap: 30px;
+        display: block;
+        padding: 15px;
+    }
+    .menu li{
+        padding: 5px;
+    }
+    .menu li:hover{
+        border-bottom: 2px solid #ffffff;
+        transition:  .3s;
+    }
+    .nav_menu {
+        display: none;
+        position: absolute;
+        background-color: #00bec9;
+        width: 80%;
+        top: 100px;
+        font-size: 20px;
+        border: 2px solid white;
+        box-sizing: border-box;
+    }
+    .menu_list img {
+        width: 40px;
+    }
+    
+    .search input{
+        display: none;
+        padding: 11px 20px;
     }
     .slide img{
         width: 50%;
@@ -304,6 +354,9 @@
         width: calc(33.33% - 20px);
         padding: 50px;
     }
+    .col-md-4 p{
+        font-size: 20px;
+    }
     .footer_menu > div {
         width: 33.33%;
     }
@@ -317,20 +370,21 @@
     .container {
         width: 90%;
     }
-    .nav_menu{
-
+    .menu_list{
+        display: none;
     }
     .menu {
         gap: 25px;
     }
     .nav_menu{
+        display: block;
         font-size: 20px;
     }
     .search input {
         padding: 12px 18px;
     }
     .search_icon {
-        padding: 8px 18px;
+        padding: 10px 18px;
     }
     h2 {
         font-size: 35px;
@@ -365,4 +419,13 @@
         padding: 50px 0;
     }
     
+}
+
+@media only screen and (min-width: 1329px){
+    .menu_list{
+        display: none;
+    }
+    .search_icon {
+        padding: 14px 20px;
+    }
 }
