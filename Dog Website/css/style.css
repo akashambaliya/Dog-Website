@@ -20,7 +20,6 @@ header{
 .header{
     justify-content: space-between;
     align-items: center;
-    animation: fadeIn 1s ease-in-out;
 }
 
 .search{
@@ -81,7 +80,7 @@ a {
 .slider_text{
     color: white;
     width: 50%;
-    animation: slideInFromLeft 1s ease-in-out forwards;
+    
 }
 h2{
     font-size: 60px;
@@ -136,7 +135,7 @@ button{
     justify-content: space-between;
 }
 .video_text{
-    animation: slideInFromLeft 1s ease-in-out forwards;
+    
     color: #313243;
 }
 .video_img{

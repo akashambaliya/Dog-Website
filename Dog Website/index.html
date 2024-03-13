@@ -7,14 +7,14 @@
     <title>Dog Website</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
+
 <body>
 <header>
    <div class="container">
-        <div class="header flex">
+        <div class="header flex animate__animated animate__zoomIn">
             <div class="menu_list">
                 <a href="#void" onclick="AccountMenu()"><img src="./img/menu.png" alt=""></a>
             </div>
@@ -40,15 +40,15 @@
     <div class="slider">
         <div class="container">
             <div class="slide flex">
-                <img src="./img/slide_dog.png" alt="img">
-                <div class="slider_text" data-aos="fade-right">
-                    <h2>First I wanted to be a Veterinarian</h2>
-                    <p class="slide_text">Lorem Ipsum available but the majority have
+                <img src="./img/slide_dog.png" alt="img" class="animate__animated animate__flash">
+                <div class="slider_text ">
+                    <h2 class="animate__animated animate__bounceIn">First I wanted to be a Veterinarian</h2>
+                    <p class="slide_text animate__animated animate__fadeIn">Lorem Ipsum available but the majority have
                         suffered alteration in some form, by injected
                         humour randomised words.</p>
                     <div class="button flex">
-                        <button class="button1 button_hover1">Contact Us</button>
-                        <button class="button2 button_hover">Our Service</button>
+                        <button class=" button1 button_hover1 animate__animated animate__fadeInLeft">Contact Us</button>
+                        <button class=" button2 button_hover animate__animated animate__fadeInRight">Our Service</button>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
 <section>
     <div class="container">
         <div class="video_section flex">
-            <div class="slider_text video_text" data-aos="fade-right">
+            <div class="slider_text video_text wow animate__animated animate__fadeInLeft">
                 <h2>As a veterinarian and lover of animals.</h2>
                 <p class="slide_text">Lorem Ipsum available but the majority have
                     suffered alteration in some form, by injected
@@ -67,7 +67,7 @@
                     <button class="button2 button_hover">Contact Us</button>
                 </div>
             </div>
-            <div class="video_img" data-aos="fade-left">
+            <div class="video_img wow animate__animated animate__fadeInRight">
                 <img src="./img/video_dog.png" alt="">
                 <a class="play-btn" href="#void"></a>
             </div>
@@ -83,27 +83,27 @@
 <section>
     <div class="dog_care">
         <div class="container">
-            <div class="heading_text" data-aos="zoom-in">
+            <div class="heading_text wow animate__animated animate__flipInX ">
                 <h1>Title Here</h1>
                 <p class="slide_text"> Lorem Ipsum available, but the majority have
                 suffered alteration in some form.</p>
             </div>
             <div class="care_card flex">
-                <div class="card_box" data-aos="zoom-out-right">
+                <div class="card_box wow animate__animated animate__fadeInLeft">
                     <img src="./img/card1.png" alt="">
                     <h3>Veterinarian</h3>
                     <p class="card_text"> Lorem Ipsum available, but
                         the majority have suffered
                         alteration in some.</p>
                 </div>
-                <div class="card_box" data-aos="fade-up">
+                <div class="card_box wow animate__animated animate__fadeInUp">
                     <img src="./img/card2.png" alt="">
                     <h3>Vaccination Care</h3>
                     <p class="card_text"> Lorem Ipsum available, but
                         the majority have suffered
                         alteration in some.</p>
                 </div>
-                <div class="card_box" data-aos="zoom-out-left">
+                <div class="card_box wow animate__animated animate__fadeInRight">
                     <img src="./img/card3.png" alt="">
                     <h3>Dental Care</h3>
                     <p class="card_text"> Lorem Ipsum available, but
@@ -116,9 +116,8 @@
 </section>
 <section>
     <div class="container" >
-        <div class="video_section video_section2 flex" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000" >
-            <div class="slider_text video_text">
+        <div class="video_section video_section2 flex">
+            <div class="slider_text video_text wow animate__animated animate__fadeInRight">
                 <h2>As a veterinarian and lover of animals</h2>
                 <p class="slide_text">Lorem Ipsum available but the majoty
                     suffered alteration in some form, by
@@ -127,7 +126,7 @@
                     <button class="button2 button_hover">Our Service</button>
                 </div>
             </div>
-            <div class="video_img">
+            <div class="video_img wow animate__animated animate__fadeInLeft">
                 <img src="./img/video2.png" alt="">
                 <a class="play-btn2" href="#void"></a>
             </div>
@@ -143,27 +142,27 @@
 <section>
     <div class="dog_care">
         <div class="container">
-            <div class="heading_text" data-aos="zoom-in">
+            <div class="heading_text wow animate__animated animate__flipInX">
                 <h1>Title Here</h1>
                 <p class="slide_text"> Lorem Ipsum available, but the majority have
                 suffered alteration in some form.</p>
             </div>
             <div class="care_card flex">
-                <div class="card_box" data-aos="zoom-out-right">
+                <div class="card_box wow animate__animated animate__fadeInLeft">
                     <img src="./img/sell_dog1.png" alt="">
                     <div class="price flex">
                         <del><h3>＄50</h3></del><h3>＄30</h3>
                     </div>
                     <button class="buy_button button_hover1">Buy Now</button>
                 </div>
-                <div class="card_box" data-aos="fade-up">
+                <div class="card_box wow animate__animated animate__fadeInUp">
                     <img src="./img/sell_dog2.png" alt="">
                     <div class="price flex">
                         <del><h3>＄40</h3></del><h3>＄25</h3>
                     </div>
                     <button class="buy_button button_hover1">Buy Now</button>
                 </div>
-                <div class="card_box" data-aos="zoom-out-left">
+                <div class="card_box wow animate__animated animate__fadeInRight">
                     <img src="./img/sell_dog3.png" alt="">
                     <div class="price flex">
                         <del><h3>＄45</h3></del><h3>＄20</h3>
@@ -175,15 +174,15 @@
     </div>
 </section>
 <section>
-    <div class="dog_care doc_team" data-aos="zoom-out">
+    <div class="dog_care doc_team">
         <div class="container">
-            <div class="heading_text">
+            <div class="heading_text wow animate__animated animate__flipInX">
                 <h1>The vetcare team</h1>
                 <p class="slide_text"> Lorem Ipsum available, but the majority have
                     suffered alteration in some form.</p>
             </div>
             <div class="care_card flex">
-                <div class="card_box doc_box">
+                <div class="card_box doc_box wow animate__animated animate__zoomIn">
                     <img src="./img/doc1.png" alt="">
                     <h3>Jennifer Mullen</h3>
                     <p class="card_text">VETERINARY</p>
@@ -194,7 +193,7 @@
                         <li class="icon"><a href="#void"><img src="./img/whats_icon.png" alt=""></a></li>
                     </ul>
                 </div>
-                <div class="card_box doc_box">
+                <div class="card_box doc_box wow animate__animated animate__zoomIn">
                     <img src="./img/doc2.png" alt="">
                     <h3>Sheeren Collins</h3>
                     <p class="card_text">ADMINISTRATION</p>
@@ -205,7 +204,7 @@
                         <li class="icon"><a href="#void"><img src="./img/whats_icon.png" alt=""></a></li>
                     </ul>
                 </div>
-                <div class="card_box doc_box">
+                <div class="card_box doc_box wow animate__animated animate__zoomIn">
                     <img src="./img/doc3.png" alt="">
                     <h3>Jennifer Mullen</h3>
                     <p class="card_text">VETERINARY</p>
@@ -225,17 +224,17 @@
         <div class="info_img">
             <div class="container">
                 <div class="row flex">
-                    <div class="col-md-4" data-aos="flip-up" >
+                    <div class="col-md-4 wow animate__animated animate__zoomInDown">
                         <img src="./img/client_icon.png" alt="">
                         <h3><span class="counter">+34793</span></h3>
                         <p>Happy Clients</p> 
                     </div> 
-                    <div class="col-md-4" data-aos="flip-up">
+                    <div class="col-md-4 wow animate__animated animate__zoomInDown">
                         <img src="./img/dep_icon.png" alt="">
                         <h3><span class="counter">+45382</span></h3>
                         <p>Departament</p>
                     </div>
-                    <div class="col-md-4" data-aos="flip-up">
+                    <div class="col-md-4 wow animate__animated animate__zoomInDown">
                         <img src="./img/vac_icon.png" alt="">
                         <h3><span class="counter">+54762</span></h3>
                         <p>Vaccinations</p>
@@ -249,14 +248,13 @@
 <section>
     <div class="dog_care doc_team">
         <div class="container">
-            <div class="heading_text" data-aos="zoom-in-down">
+            <div class="heading_text wow animate__animated animate__flipInX">
                 <h1>Recent Posts</h1>
                 <p class="slide_text">  Lorem Ipsum available, but the majority have
                     suffered alteration in some form.</p>
             </div>
-            <div class="care_card flex" data-aos="fade-up"
-            data-aos-duration="3000">
-                <div class="card_box rev_card">
+            <div class="care_card flex">
+                <div class="card_box rev_card wow animate__animated animate__fadeInLeft">
                     <img src="./img/rev_img1.png" alt="">
                     <div class="rev_card_text">
                         <h4>As a veterinarian and lover of animals</h4>
@@ -266,7 +264,7 @@
                         <span class="readmore"><a href="#void">Read More+</a></span>
                     </div>
                 </div>
-                <div class="card_box rev_card">
+                <div class="card_box rev_card wow animate__animated animate__zoomIn">
                     <img src="./img/rev_img2.png" alt="">
                     <div class="rev_card_text">
                         <h4>As a veterinarian and lover of animals</h4>
@@ -276,7 +274,7 @@
                         <span class="readmore"><a href="#void">Read More+</a></span>
                     </div>
                 </div>
-                <div class="card_box rev_card">
+                <div class="card_box rev_card wow animate__animated animate__fadeInRight">
                     <img src="./img/rev_img3.png" alt="">
                     <div class="rev_card_text">
                         <h4>As a veterinarian and lover of animals</h4>
@@ -336,6 +334,9 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script src="./js/script.js"></script>
-
+<!-- <script src="js/wow.min.js"></script> -->
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>

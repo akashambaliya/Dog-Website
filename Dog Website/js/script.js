@@ -57,10 +57,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // <------------------ANIMATION--------------------->
 
-AOS.init({
-  offset: 300,
-  duration: 1000,
-});
+// AOS.init({
+//   offset: 300,
+//   duration: 1000,
+// });
+
 
 // <------------------COUNTER--------------------->
 
