@@ -57,9 +57,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // <------------------ANIMATION--------------------->
 
-AOS.init(
-
-);
+AOS.init({
+  offset: 300,
+  duration: 1000,
+});
 
 // <------------------COUNTER--------------------->
 
@@ -69,6 +70,7 @@ $('.counter').counterUp({
 });
 $('.counter').addClass('animated fadeInDownBig');
 $('h3').addClass('animated fadeIn');
+
 
 
 
